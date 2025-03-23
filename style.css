@@ -1,0 +1,302 @@
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-bottom: -5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #0b2149;
+    text-decoration: underline;
+
+}
+
+#explore{
+    border: none;
+    color: #1865F2;
+}
+#Search-button{
+    padding: 10px 70px;
+    border:1px solid black;
+    border-radius:2px;
+    color: #1865F2;
+    text-align:right;
+}
+
+#sign-up{
+    background-color: #1865F2;
+    padding: 10px 25px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+}
+#sign-up:hover{
+    background-color: #023aa3;
+}
+
+.onenav{
+    margin-right:60px;
+}
+
+.twonav{
+    margin-left:20px;
+}
+
+#box2{
+    margin-bottom: 30px;
+}
+
+#one{
+    margin-top:70px;
+    margin-left:70px;
+    display: flex;
+   align-items: center;
+   flex-direction: row;
+}
+
+#teacher-2{
+    margin-right: 30px;
+}
+
+#diff-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap:20px;
+}
+
+#diff-buttons button{
+    background-color: #1865F2;
+    padding: 10px 70px;     
+    color: white;   
+    border-radius:0.4rem;     
+}
+
+#diff-buttons button:hover{
+    background-color: #023aa3;
+}
+
+.button-click{
+    padding: 8px 60px;      
+    background-color: #1865F2;
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;             
+    border-radius:0.3rem;      
+}
+.button-click:hover{
+    background-color: #023aa3;
+}
+
+
+
+
+#two {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    flex-wrap: wrap;
+    background-color:white;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 20px;
+}
+
+.section {
+    background-color:white;
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); */
+    padding: 15px;
+    margin: 10px;
+    width: 400px;
+    align-items: center;
+    gap: 30px;
+}
+
+h2 {
+    font-size: 18px;
+    color:black;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 33% 33% ;
+    list-style: none;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+ul li {
+    padding: 8px;
+    color: #21242c;
+    background: white;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+ul li:hover {
+    border: 1px solid black;
+    padding:5px;
+    cursor: pointer;
+    color: #1865F2;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+#sec-3{
+    margin-top:6rem;
+    display:flex;
+    justify-content:center;
+    gap:4rem;
+    align-content: center;
+    text-align: center;
+}
+
+#sec-3 img {
+    height: 10rem;
+    width: 10rem;
+}
+
+#four{
+    margin-top:7rem;
+}
+
+#sec-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-left: 30px;
+}
+
+#sec-4 img{
+    height: 30rem;
+}
+
+
+#Six{
+   padding:50px; 
+   margin-top:70px; 
+   display: flex;
+   justify-content: center;    
+}
+
+#teacher-1{
+        margin-right: 40px  ;
+}
+
+#Six img{
+    height:9rem;
+    margin-top:10rem;
+    }   
+
+#eight{
+   margin-top:8rem;
+}
+
+#sec-8{
+    margin-left: 35%;
+    display: grid;
+    padding: 50px;
+    grid-template-rows: repeat(4, 50px);
+    grid-row-gap: 30px;
+    text-align: center;
+    width:300px;
+}
+#sec-8 button{
+    padding: 20px;
+    font-size:1.2rem;
+    text-align:center;
+    align-self: center;
+    background-color: #1865F2;
+    color: white;
+    font-weight: 400;
+}
+
+#sec-8 button:hover{
+    background-color: #023aa3;
+}
+
+#sec-9{
+  display: grid;
+  grid-template-columns: 30% 30% ;
+ justify-content: space-evenly;
+ gap: 50px;
+}
+
+#sec-9 img{
+    padding:15px;   
+    height:2.5rem;
+   
+}
+
+
+footer{
+    background-color: #0b2149;
+    margin-top: 70px;
+    color: white;
+    display: flex;
+    gap: 6rem;
+    padding: 50px;
+
+}
+#foot-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+#foot-2 a{
+    color: white;
+    display: grid;
+    line-height: 30px;
+}
+#foot-2 a:hover{
+    color: #8295BA;
+}
+
+#foot-1{
+    font-size: 20px;
+    color: #8295BA; 
+}
+#foot-1 span{
+    color: white;
+}
+
+#footer-2{
+    background-color: #0b2149;
+    color:#8295BA;
+    display: flex;
+    gap: 2rem;
+    padding:20px;
+}
+#footer-2 a{
+     color: white;   
+     margin-top: 30px;
+}
